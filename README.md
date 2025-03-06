@@ -17,7 +17,7 @@ Este projeto consiste na criação de um **Dashboard de Telemetria** para monito
 - **Python dotenv**: Gerenciamento de variáveis de ambiente.
 
 
-```
+
 
 ##  Configuração e Execução
 ### 1️ Configurar as Credenciais do Supabase
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-```
+
 ##  Métricas Monitoradas
 O dashboard é dividido em duas seções: **Logs** e **Bronze (Data Lake)**.
 
