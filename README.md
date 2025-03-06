@@ -56,12 +56,11 @@ O dashboard é dividido em duas seções: **Logs** e **Bronze (Data Lake)**.
 3. **Distribuição dos registros por localização (JSON)**
 4. **Análise do campo "CAPTURE_TIME"** para verificar padrões
 
-##  Insights Extraídos
-🔍 **Padrões identificados:**
+ **Padrões identificados:**
 - A maioria dos logs foi gerada em um curto período de tempo, o que indica que os dados foram inseridos em lote.
 - Os registros do Data Lake apresentam diferentes status e localizações, permitindo identificar padrões de captura dos dados.
 
-⚠️ **Pontos de atenção:**
+ **Pontos de atenção:**
 - A alta concentração de erros em determinados serviços pode indicar falhas sistêmicas.
 - A distribuição dos logs por nível de severidade pode ser usada para priorizar ações corretivas.
 - A visualização do volume de dados no Data Lake ajuda a prever necessidade de armazenamento.
