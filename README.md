@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-
+```
 ##  Métricas Monitoradas
 O dashboard é dividido em duas seções: **Logs** e **Bronze (Data Lake)**.
 
@@ -66,6 +66,5 @@ O dashboard é dividido em duas seções: **Logs** e **Bronze (Data Lake)**.
 - A visualização do volume de dados no Data Lake ajuda a prever necessidade de armazenamento.
 
 
-## 📢 Conclusão
 Este dashboard fornece uma visão detalhada da telemetria do sistema, auxiliando na identificação de falhas e melhorias na governança dos dados. A implementação permite monitoramento contínuo e suporte à tomada de decisões baseadas em dados.
 
